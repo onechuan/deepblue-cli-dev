@@ -1,13 +1,13 @@
 {
   "name": "@deepblue-cli-dev/core",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "deepblue-cli-dev core",
   "author": "onechuan <oenchuan2020@163.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
-  "bin":{
-    "deepblue-cli-dev":"bin/index.js"
+  "bin": {
+    "deepblue-cli-dev": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
@@ -23,6 +23,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@deepblue-cli-dev/utils":"^1.0.0"
+    "@deepblue-cli-dev/utils": "^0.0.1"
   }
 }
