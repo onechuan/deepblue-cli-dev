@@ -1,13 +1,6 @@
-0 silly argv {
-0 silly argv   _: [ 'add' ],
-0 silly argv   globs: [],
-0 silly argv   lernaVersion: '5.2.0',
-0 silly argv   '$0': 'lerna',
-0 silly argv   pkg: 'deepblue-lib'
-0 silly argv }
-1 notice cli v5.2.0
-2 verbose rootPath /Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev
-3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/deepblue-lib - Not found
-3 error     at /Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/pacote/node_modules/npm-registry-fetch/lib/check-response.js:93:15
-3 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-3 error     at async RegistryFetcher.packument (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/pacote/lib/registry.js:92:19)
+36 error Error: Command failed with exit code 128: git tag v0.0.1 -m v0.0.1
+36 error fatal: tag 'v0.0.1' already exists
+36 error     at makeError (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/execa/lib/error.js:60:11)
+36 error     at handlePromise (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/execa/index.js:118:26)
+36 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+36 error     at async Promise.all (index 0)
