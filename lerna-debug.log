@@ -1,10 +1,4 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: unable to access 'https://github.com/onechuan/deepblue-cli-dev.git/': Failed to connect to github.com port 443 after 75049 ms: Operation timed out
-15 error error: Could not fetch origin
-15 error Fetching origin
-15 error     at makeError (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/execa/lib/error.js:60:11)
-15 error     at Function.module.exports.sync (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/execa/index.js:194:17)
-15 error     at Object.execSync (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/@lerna/child-process/index.js:39:16)
-15 error     at updateRemote (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/@lerna/version/index.js:153:9)
+47 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+47 error fatal: unable to access 'https://github.com/onechuan/deepblue-cli-dev.git/': LibreSSL SSL_read: error:02FFF03C:system library:func(4095):Operation timed out, errno 60
+47 error     at makeError (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/execa/lib/error.js:60:11)
+47 error     at handlePromise (/Users/tal/code/framework/deepblue-cli-dev/deepblue-cli-dev/node_modules/execa/index.js:118:26)
