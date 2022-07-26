@@ -23,6 +23,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@deepblue-cli-dev/utils": "^0.0.1"
+    "@deepblue-cli-dev/utils": "^0.0.2"
   }
 }
