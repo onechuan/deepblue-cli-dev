@@ -1,0 +1,16 @@
+{
+  "name": "deepblue-cli-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "onechuan",
+  "description": "deepblue-cli-dev",
+  "scripts": {},
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.2.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
