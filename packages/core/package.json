@@ -24,5 +24,6 @@
   },
   "dependencies": {
     "@deepblue-cli-dev/utils": "^0.0.2"
-  }
+  },
+  "gitHead": "1a7144086eac06550420501d008a9c036dc3548b"
 }
