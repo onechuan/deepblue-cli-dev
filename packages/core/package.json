@@ -1,6 +1,6 @@
 {
   "name": "@deepblue-cli-dev/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "deepblue-cli-dev core",
   "author": "onechuan <oenchuan2020@163.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@deepblue-cli-dev/utils": "^0.0.3"
+    "@deepblue-cli-dev/utils": "^0.0.4"
   },
   "gitHead": "3ee3c730ab83060c7dd1ab7acac5269c12fe51fb"
 }
